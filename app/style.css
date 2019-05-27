@@ -1,0 +1,45 @@
+*{box-sizing:border-box;}
+@media print{
+a{display:none}.detail{margin:0}}
+body{font-size:18px;font-family:serif;margin:0;}
+h2{font-size:23px;margin:10px 0;}
+h1{font-size:25px;color:#fff;text-align:center;margin:0;padding:6px 0 10px;letter-spacing:-1px}
+header{background:cornflowerblue;padding-top:5px;}
+.detail{margin:10px}
+nav ul{list-style:none;padding:0;margin:0;float:left;width:100%;display:flex}
+nav{padding:0;}
+nav .row{padding:0}
+nav a{color:#fff;background:#888;padding:12px 0;display:block;text-decoration:none;border-top-left-radius:8px;border-top-right-radius:8px;}
+nav a:hover,nav a:focus{background:#aaa;text-decoration:none;color:#fff;}
+.current,.current:hover{background:#fff;color:cornflowerblue;font-weight:bold;}
+nav li{float:left;flex:auto;text-align:center;margin-right:6px}
+nav li:last-of-type{margin-right:0}
+nav li:first-of-type a{border-top-left-radius:0}
+nav li:last-of-type a{border-top-right-radius:0}
+h2 a{text-decoration:none;font-weight:normal}
+.main{padding-bottom:25px;}
+footer{}
+.recipe{}
+.recipe a{color:darkslategrey;}
+.recipe a:hover{color:rgba(47,79,79,0.7);text-decoration:none;}
+input[type=text]{padding:13px;margin:4px 0;width:300px;max-width:100%;}
+input[type=password]{padding:13px;width:300px;}
+textarea{width:100%;}
+button{padding:18px;border:0;background:red;color:#fff;}
+button:hover{opacity:0.8}
+#ingredients button{width:15%}
+#methods button{width:10%}
+.addBtn{background:green;}
+.form-signin{margin-top:75px}
+.login{background:cornflowerblue;width:300px;margin:4px 0;}
+.removeBtn{background:red;padding:3px 10px;color:#fff;}
+#ingredients, #methods{float:left}
+#methods{width:60%;}
+#ingredients{width:40%;}
+#ingredients input[type=text]{width:70%;}
+#methods input[type=text]{width:80%}
+input[type=submit]{width:100%;padding:10px 50px;}
+.container,.main,.row,.col-md-12{width:100%;float:left}
+.recipe{float:left;margin:15px 1% 0 0;flex:0 0 calc(95% / 4);padding:0 5px 0;}
+.recipe:nth-of-type(4n+1){margin-left:1%}
+.main{display:flex;width:100%;flex-wrap:wrap;}
